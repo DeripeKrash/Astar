@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4149366216973126842
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4149366216973126845}
+  - component: {fileID: 4149366216973126847}
+  - component: {fileID: 4149366216973126844}
+  - component: {fileID: 6598872895724105450}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4149366216973126845
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4149366216973126842}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 461.79062, y: 218.16418, z: -146.3123}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4149366216973126847
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4149366216973126842}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 021e99c28fa47184c834b627182e9c58, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  menuManager: {fileID: 0}
+  cristal: {fileID: 0}
+  playerMovement: {fileID: 0}
+  playerAttack: {fileID: 0}
+  cam: {fileID: 0}
+  score: {fileID: 0}
+  savedScore: 0
+--- !u!114 &4149366216973126844
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4149366216973126842}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ab031fdd0b8c1343950446a772fa474, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  comboCanvas: {fileID: 0}
+  comboBar: {fileID: 0}
+  comboScript: {fileID: 0}
+  playerWeapon: {fileID: 0}
+  comboCoeff: {fileID: 0}
+--- !u!114 &6598872895724105450
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4149366216973126842}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f4a7dd278bbf8640bfbb91b6381cc2f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  winLevelCanvas: {fileID: 0}
+  winLevelBackGround: {fileID: 0}
+  winLevelScore: {fileID: 0}
+  gameOverLevelCanvas: {fileID: 0}
+  gameOverLevelBackGround: {fileID: 0}
+  gameOverLevelScore: {fileID: 0}
+  transitionTime: 5
+  endLevelFadeOutTime: 3

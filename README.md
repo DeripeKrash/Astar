@@ -1,5 +1,5 @@
 # Astar
-Astar is a 2.5D action platform game made as a student project.
+Astar is a 2.5D action platform game made as a student project in 5 weeks
 
 <div align="center"><img src="Screenshots/logo_astar_V1.png" /></div>
 <div align="center">

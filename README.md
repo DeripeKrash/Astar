@@ -27,6 +27,8 @@ He can set his controller type in the Option Menu.
 | Left joystick         | Move                  |
 | Right/Left shoulder   | Dash                  |
 
+## My work
+In the project I was in charge of the controls and interaction of the main character, all interactive object (bumber, portal, boost, jumpable wall) and the path system that the enemies use.
 
 ## Credits
 | Game Designer

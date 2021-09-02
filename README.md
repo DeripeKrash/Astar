@@ -28,7 +28,13 @@ He can set his controller type in the Option Menu.
 | Right/Left shoulder   | Dash                  |
 
 ## My work
-In the project I was in charge of the controls and interaction of the main character, all interactive object (bumber, portal, boost, jumpable wall) and the path system that the enemies use.
+In the project I was in charge of : 
+    - The controls and interaction of the main character
+    - All interactive object : bumber, portal, boost, jumpable wall
+    - The path system that the enemies use
+    - Level management
+    - Save system
+    - Credit Scene
 
 ## Credits
 | Game Designer
